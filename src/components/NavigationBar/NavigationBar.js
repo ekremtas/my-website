@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../../images/logogo.png";
-
+import {Nav} from "./styles";
 const NavigationBar = () => {
   return (
+    <Nav>
     <nav
       class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
       id="mainNav"
@@ -64,6 +65,7 @@ const NavigationBar = () => {
         </div>
       </div>
     </nav>
+    </Nav>
   );
 };
 
